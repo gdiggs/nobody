@@ -28,6 +28,11 @@ class NullOdysseus
     'Itaca'
   end
 end
+
+o = NullOdysseus.new
+o.name #=> nil
+o.alive? #=> true
+o.dead? #=> false
 ```  
 
 ## Français
@@ -58,6 +63,11 @@ class NullOdysseus
     'Itaca'
   end
 end
+
+o = NullOdysseus.new
+o.name #=> nil
+o.alive? #=> true
+o.dead? #=> false
 ```
 
 ## Acknowledgements
