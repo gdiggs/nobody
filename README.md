@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/GordonDiggs/nobody.png)](https://travis-ci.org/GordonDiggs/nobody)
+
 # nobody / personne
 
 ## English
