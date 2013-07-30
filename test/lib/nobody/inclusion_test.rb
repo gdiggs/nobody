@@ -12,12 +12,15 @@ describe Nobody do
 
       TestClass.new.must_respond_to(:true_method)
       assert TestClass.new.true_method
+      assert TestClass.new.true_method('with', 'arguments')
 
       TestClass.new.must_respond_to(:false_method)
       assert_equal false, TestClass.new.false_method
+      assert_equal false, TestClass.new.false_method('with', 'arguments')
 
       TestClass.new.must_respond_to(:nil_method)
       assert_nil TestClass.new.nil_method
+      assert_nil TestClass.new.nil_method('with', 'arguments')
     end
   end
 end
