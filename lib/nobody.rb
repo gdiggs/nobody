@@ -19,7 +19,7 @@ module Nobody
         # takes a value and method array, defines instance methods returning that value
         def define_methods_with_return_value(value, methods)
           methods.each do |name|
-            define_method name do
+            define_method name do |*args, &block|
               value
             end
           end
