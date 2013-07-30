@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/GordonDiggs/nobody.png)](https://travis-ci.org/GordonDiggs/nobody)
+[![Code Climate](https://codeclimate.com/github/GordonDiggs/nobody.png)](https://codeclimate.com/github/GordonDiggs/nobody)
 
 # nobody / personne
 
